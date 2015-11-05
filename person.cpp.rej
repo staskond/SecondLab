@@ -1,0 +1,9 @@
+diff a/person.cpp b/person.cpp	(rejected hunks)
+@@ -5,7 +5,6 @@
+ //Error #A1 - This error may be when you input invalid Gender. Gender may be only Male, Fermale, fermale, male.
+ 
+ 
+-Person * Person::Make(const std::string & _fullName, const std::string & _Gender)
+ Person * Person::Make(const std::string & _fullName, const std::string & _Gender)test
+ {
+ 	if (_Gender == "male" || _Gender == "fermale" || _Gender == "Fermale" || _Gender == "Male") {

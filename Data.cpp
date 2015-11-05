@@ -4,7 +4,7 @@
 #include <cstdio>
 #include <iostream>
 
-Date::Date()this is test git
+Date::Date()
 {
 	// Выясняем текущее системное время
 	time_t currentTime = time(nullptr);
